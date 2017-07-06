@@ -65,22 +65,27 @@ restaurant_dict= {
         }
     }
 }
+#to take input 
 def input(string,x):
     if(x==0):
         return int(raw_input(string))
     if(x==1):
         return raw_input(string)
+#to print any list
 def print_list(list):
     for name in list:
         print name
+#check for food item
 def take_food_item(owner_restaurant_name):
     update_food_item_name = input("Enter the Food Item name : ",1)
     if (update_food_item_name in (restaurant_dict[owner_restaurant_name]['Food List'].keys())):
         return update_food_item_name
     else:
         return "False"
+#main
 while(True):
     user_categorie = input("You Are : \n1. Owner \n2. Customer \n3. To Exit \nSelect Option : ",0)
+    #for owner
     if(user_categorie == 1):
         print "Restaurant  List :"
         print_list(restaurant_dict.keys())
@@ -114,6 +119,7 @@ while(True):
                     print "Food Item not present in the menu \nBye"
         elif(owner_choice == "No"):
             print "Bye"
+    #for customer
     elif(user_categorie == 2):
         print "Restaurant  List :"
         print_list(restaurant_dict.keys())
