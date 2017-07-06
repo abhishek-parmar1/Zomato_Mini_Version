@@ -64,8 +64,10 @@ window.onclick = function(event) {
   }
 }
 
+// array for ordered list
 var selected = [];
 
+// functions which add the item name (checkbox name attribute value)to array of ordered list from all div
 $('.create_order1').click(function(){
     $('#myDropdown1 input:checked').each(function() {
         selected.push($(this).attr('name'));
@@ -87,6 +89,7 @@ $('.create_order4').click(function(){
     });
 });
 
+// function to display the message of order registration
 $('#order_btn').click(function(){
     if(selected.length==0)
         $('#message').text("Fool First...Order Some Thing!!!") 

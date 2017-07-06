@@ -1,3 +1,4 @@
+/* grid system */
 .row{
     width: 100%;
 }
@@ -37,9 +38,11 @@
 .col-12{
     width: 100%;
 }
+/* main container  styles */
 container{
     font-family: sans-serif;  
 }
+/* nav bar  styles */
 .nav-bar{
     background-color: black;
     position: fixed;
@@ -53,6 +56,7 @@ container{
     font-size: 50px;
     margin: 10px;
 }
+/* restaurant details  styles */
 .content{
     background-color: aqua;
     margin-top: 78px;
@@ -97,6 +101,7 @@ p.info-content{
 #KFC{
     left: 70px;
 }
+/* restaurant menu  styles */
 .menu_buttons{
     background-color: aqua;
     width: 100%;
@@ -165,7 +170,7 @@ p.info-content{
     text-align: left;
 }
 
-/* Change color of dropdown links on hover */
+/* Change color of dropdown li on hover */
 .dropdown-content1 li:hover,
 .dropdown-content2 li:hover,
 .dropdown-content3 li:hover,
@@ -177,6 +182,7 @@ p.info-content{
 .show {
     display:block;
 }
+/* create order button  styles */
 .create_order1,
 .create_order2,
 .create_order3,
@@ -187,6 +193,7 @@ p.info-content{
     margin-left: 70px;
     cursor: pointer;
 }
+/* place order section styles */
 .place_order{
     width: 100%;
     height: 100px;
@@ -205,6 +212,7 @@ p.info-content{
     background-color: forestgreen;
     cursor: pointer;
 }
+/* message section  styles */
 .footer{
     background-color: #466060;
     width: 100%;
@@ -216,6 +224,7 @@ p.info-content{
     text-align: center;
     padding: 60px;
 }
+/* copyright section  styles */
 .copyright{
     background-color: black;
     width: 100%;

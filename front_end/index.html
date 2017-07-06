@@ -4,35 +4,44 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css files included -->
     <link href="custom.css" rel="stylesheet">
   </head>
   <body>
+    <!-- main container begin -->
     <div class="container">
+        <!-- nav bar begin -->
         <div class="nav-bar row">
             <div class="col-12">
                 <h1 id="heading-style">Zomato Ordering</h1>
             </div>
         </div>
+        <!-- nav bar ends -->
+        <!-- restaurant info section begin-->
         <div class="content">
-            <div class="row"> 
+            <div class="row">
+                <!-- restaurant 1-->
                 <div class="col-3 item">
                     <img src="images/1.png" alt="KFC">
                     <div class="info">
                         <p class="info-content" id="KFC">KFC</p>
                     </div>
                 </div>
+                <!-- restaurant 2-->
                 <div class="col-3 item">
                     <img src="images/2.png" alt="McDonald's">
                     <div class="info">
                         <p class="info-content">McDonald's</p>
                     </div>
                 </div>
+                <!-- restaurant 3-->
                 <div class="col-3 item">
                     <img src="images/3.png" alt="Domino's">
                     <div class="info">
                         <p class="info-content">Domino's</p>
                     </div>
                 </div>
+                <!-- restaurant 4-->
                 <div class="col-3 item">
                     <img src="images/4.jpg" alt="Pizza Hut">
                     <div class="info">
@@ -41,8 +50,11 @@
                 </div>
             </div>
         </div>
+        <!-- restaurant info section ends-->
+        <!-- restaurant menu section begin-->
         <div class="menu_buttons">
             <div class="row">
+                <!-- restaurant 1 menu-->
                 <div class="col-3 menu_item">
                     <div class="dropdown">
                       <button onclick="myFunction1()" class="dropbtn1">Menu</button>
@@ -63,6 +75,7 @@
                       </div>
                     </div>                    
                 </div>
+                <!-- restaurant 2 menu-->
                 <div class="col-3 menu_item">
                     <div class="dropdown">
                       <button onclick="myFunction2()" class="dropbtn2">Menu</button>
@@ -83,6 +96,7 @@
                       </div>
                     </div>
                 </div>
+                <!-- restaurant 33 menu-->
                 <div class="col-3 menu_item">
                     <div class="dropdown">
                       <button onclick="myFunction3()" class="dropbtn3">Menu</button>
@@ -103,6 +117,7 @@
                       </div>
                     </div>
                 </div>
+                <!-- restaurant 4 menu-->
                 <div class="col-3 menu_item">
                     <div class="dropdown">
                       <button onclick="myFunction4()" class="dropbtn4">Menu</button>
@@ -125,18 +140,26 @@
                 </div>
             </div>
         </div>
+        <!-- restaurant menu section ends-->
+        <!-- place order section begin-->
         <div class="place_order">
             <button id="order_btn">Place Order</button>
         </div>
+        <!-- place order section end-->
+        <!-- message section begin-->
         <div class="footer">
             <div id="message">
             </div>
         </div>
+        <!-- message section end-->
+        <!-- copyright details-->
         <div class="copyright">
             <p class="copyright_info">Developed &amp; Designed By &copy; Abhishek Parmar</p>
         </div>
     </div>
+    <!-- main container begin -->
 
+    <!-- js files included -->
     <script  src="jquery-3.2.1.min.js"></script>
     <script src="custom.js"></script>
   </body>
